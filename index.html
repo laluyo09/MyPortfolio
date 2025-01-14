@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharma Yogesh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            color: rgb(12, 12, 12);
+            font-family: "Montserrat", serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 95px;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        .left {
+            font-size: 2rem;
+            font-weight: bolder;
+            color: white;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+        }
+
+        .leftside {
+            font-size: 3rem;
+            width: 48.5%;
+            align-content: center;
+
+        }
+
+        .rightside{
+            margin-top: 6%;
+        }
+        .purple {
+            color: #54a9f3;
+            font-weight: bolder;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: x-large;
+        }
+
+        nav ul li a:hover {
+            color: rgb(240, 240, 243);
+            font-size: 1.6rem;
+        }
+
+        #home {
+            text-align: center;
+            align-content: center;
+            background-color: rgb(227, 227, 227);
+            padding: 40px 20px;
+            font-size: x-large;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .blue0 {
+            font-size: 3rem;
+            color: #54a9f3;
+            font-weight: bolder;
+        }
+
+        #about {
+            text-align: center;
+            align-content: center;
+            background-color: rgb(227, 227, 227);
+            padding: 40px 20px;
+            font-size: x-large;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .blue1 {
+            font-size: 3rem;
+            color: #54a9f3;
+            font-weight: bold;
+        }
+
+        #contact {
+            text-align: center;
+            align-content: center;
+            background-color: rgb(227, 227, 227);
+            padding: 40px 20px;
+            font-size: x-large;
+            margin-bottom: 40px ;
+            font-weight: 500;
+        }
+
+        .blue2 {
+            font-size: 3rem;
+            color: #54a9f3;
+            font-weight: bolder;
+        }
+
+        #contact a {
+            text-decoration: none;
+            color: #54a9f3;
+            font-size: 1.3rem;
+        }
+
+        #contact a:hover {
+            color: rgb(84, 169, 243);
+            font-size: 1.4rem;
+        }
+
+        .intro {
+            font-size: larger;
+        }
+
+        #home p,
+        #about p,
+        #contact p {
+            font-size: 1.3rem;
+            /* Adjust this value as needed */
+        }
+
+        .leftside p {
+            font-size: 1.5rem;
+            /* Smaller font for the "Currently Pursuing" text */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sharma Yogesh's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftside">
+                <div class="intro">Hello, I'm <span class="purple">Sharma Yogesh</span></div>
+                <p>Currently Pursuing Btech CSE in First year at Navrachana University</p>
+            </div>
+            <div class="rightside">
+                <img src="pic.jpg" alt="">
+            </div>
+
+        </section>
+        <section id="home">
+            <span class="blue0">Home</span>
+            <p>Welcome to my Portfolio!</p>
+            <p>I am Sharma Yogesh, Currently Pursuing Btech CSE in First year at Navrachana University and my Enrollment
+                id is 24001128
+            </p>
+        </section>
+        <section id="about">
+            <span class="blue1">About</span>
+            <p>This is my first website, created as part of a class task to build a basic portfolio. I'm excited to
+                learn and grow as a web developer! </p>
+        </section>
+        <section id="contact">
+            <span class="blue2">Contact</span>
+            <p>You can reach me via email:</p>
+            <p><a href="mailto:yogesh.r.sharma@nuv.ac.in">yogesh.r.sharma@nuv.ac.in</a></p>
+        </section>
+    </main>
+</body>
+
+</html>
